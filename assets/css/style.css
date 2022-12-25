@@ -174,27 +174,6 @@ header .nav-links a {
         font-size: 16px;
     }
 }
-
-@media(max-width:365px) {
-
-    .trusted-by-companies :not(:first-child) {
-        display: none;
-    }
-
-    .trusted-by-companies {
-        padding-left: 0px;
-        padding-right: 0px;
-        padding-top: 20px;
-    }
-
-    .trusted-by-companies img {
-        width: 140px;
-    }
-
-    .trusted-by-section>h6 {
-        font-size: 15px;
-    }
-}
 /* trusted by company end */
 .services h1,
 h6 {
@@ -322,26 +301,6 @@ h6 {
     }
 }
 
-@media(max-width:430px) {
-    .services h1 {
-        font-size: 14px;
-        letter-spacing: 3px;
-        padding-top: 130px;
-    }
-
-    .services h6 {
-        font-size: 25px;
-        line-height: 38px;
-    }
-}
-
-@media(max-width:365px) {
-    .services h6 {
-        font-size: 18px;
-        line-height: 30px;
-        padding-top: 15px;
-    }
-
     .services h1 {
         font-size: 12px;
         letter-spacing: 2px;
@@ -380,7 +339,7 @@ h6 {
     }
 
 
-}
+
 /* projects-section start */
 
 .projects-section {
@@ -658,91 +617,6 @@ h6 {
     }
 }
 
-@media(max-width:400px) {
-    .project-card-top img {
-        width: 260px;
-    }
-
-
-
-    .view-all-projects button {
-        width: 110px;
-        height: 30px;
-        font-size: 9px;
-    }
-
-    .view-all-projects h1 {
-        font-size: 20px;
-        letter-spacing: 1px;
-        line-height: 25px;
-        padding-bottom: 35px;
-    }
-
-
-    .projects-section h5 {
-        letter-spacing: 1px;
-        font-size: 12px;
-        color: #B16CEA;
-        padding-bottom: 8px;
-
-    }
-
-    .view-all-projects {
-        padding-right: 30px;
-    }
-
-    .project-card {
-        min-width: 220px;
-        margin: 0;
-    }
-
-    .projects-section {
-        padding-left: 30px;
-        padding-right: 0px;
-    }
-
-    .project-card h4 {
-
-        font-size: 9px;
-        letter-spacing: 1px;
-        color: #3C46FF;
-        padding-top: 15px;
-        padding-bottom: 9px;
-    }
-
-    .project-card h3 {
-        font-size: 14px;
-        line-height: 14px;
-        padding-bottom: 9px;
-    }
-
-    .slider-btns button {
-        width: 30px;
-        height: 30px;
-    }
-
-    .slider-btns {
-        padding-right: 10px;
-        padding-top: 14px;
-    }
-
-    .projects-section {
-        padding-left: 10px;
-    }
-
-    .project-card-bottom {
-        padding-left: 13px;
-        padding-bottom: 5px;
-        width: 260px;
-
-    }
-
-    .project-card-top img {
-        width: 260px;
-    }
-
-}
-
 
 /* projects-section end */
 
@@ -932,158 +806,6 @@ h6 {
         padding: 30px 10px 40px 0;
     }
 }
-
-@media(max-width:460px) {
-    .latest-blog-section {
-        padding-left: 30px;
-        padding-top: 120px;
-        padding-bottom: 30px;
-    }
-
-    .blog-right-side {
-        min-width: 300px;
-    }
-
-    .blog-left-side {
-        min-width: 200px;
-    }
-
-    .latest-blog-section h5 {
-        font-size: 16px;
-        letter-spacing: 3px;
-    }
-
-    .latest-blog-section h1 {
-        font-size: 33px;
-        line-height: 33px;
-        letter-spacing: 1px;
-        padding-top: 10px;
-        padding-bottom: 15px;
-        min-width: 250px;
-    }
-
-    .blog a {
-        font-size: 14px;
-    }
-
-    .blog-right-side span {
-        font-size: 10px;
-    }
-
-    .blog-right-side h2 {
-        font-size: 17px;
-        line-height: 26px;
-        padding-top: 12px;
-        padding-bottom: 14px;
-    }
-
-    .blog {
-        padding: 25px 8px 35px 0;
-    }
-}
-
-@media(max-width:361px) {
-    .latest-blog-section {
-        padding-left: 20px;
-        padding-top: 100px;
-        padding-bottom: 20px;
-        padding-right: 100px;
-    }
-
-    .blog a {
-        font-size: 13px;
-    }
-
-    .blog-right-side {
-        min-width: 200px;
-    }
-
-    .blog-left-side {
-        min-width: 190px;
-    }
-
-    .latest-blog-section h5 {
-        font-size: 15px;
-        letter-spacing: 2px;
-    }
-
-    .latest-blog-section h1 {
-        font-size: 27px;
-        letter-spacing: 1px;
-        padding-top: 8px;
-        padding-bottom: 11px;
-        min-width: 230px;
-    }
-
-
-    .blog-right-side span {
-        font-size: 9px;
-    }
-
-    .blog-right-side h2 {
-        font-size: 14px;
-        line-height: 20px;
-        padding-top: 9px;
-        padding-bottom: 10px;
-    }
-
-    .blog {
-        padding: 20px 8px 30px 0;
-    }
-}
-
-@media(max-width:310px) {
-    .latest-blog-section {
-        padding-left: 10px;
-        padding-top: 80px;
-        padding-bottom: 10px;
-    }
-
-    .blog a {
-        font-size: 11px;
-    }
-
-    .blog-right-side {
-        min-width: 270px;
-        padding-right: 15px;
-    }
-
-    .blog-left-side {
-        min-width: 150px;
-    }
-
-    .latest-blog-section h5 {
-        font-size: 13px;
-        letter-spacing: 1px;
-    }
-
-    .latest-blog-section h1 {
-        font-size: 24px;
-        letter-spacing: 1px;
-        padding-top: 6px;
-        padding-bottom: 9px;
-
-    }
-
-
-    .blog-right-side span {
-        font-size: 8px;
-    }
-
-    .blog-right-side h2 {
-        font-size: 12px;
-        line-height: 20px;
-        padding-top: 9px;
-        padding-bottom: 10px;
-    }
-
-    .blog {
-        padding: 15px 6px 25px 0;
-        max-width: 270px;
-    }
-
-}
-
 /* latest-blog-section end */
 
 /* product-design-section start */
@@ -1298,46 +1020,6 @@ h6 {
 
     .thats-me-section {
         padding-bottom: 20px;
-    }
-}
-
-@media(max-width:400px) {
-    .product-design {
-        padding-top: 30px;
-    }
-
-    .product-design h5 {
-        font-size: 12px;
-        letter-spacing: 1px;
-    }
-
-    .thats-me-section h1 {
-        font-size: 27px;
-        padding-top: 7px;
-        padding-bottom: 9px;
-    }
-
-    .thats-me-section p {
-        font-size: 12px;
-        line-height: 15px;
-        min-width: 200px;
-    }
-
-    .thats-me-section {
-        padding-bottom: 15px;
-
-    }
-
-}
-
-@media(max-width:345px) {
-    .thats-me-image-section {
-        min-width: 280px !important;
-    }
-
-    .thats-me-image-section img {
-        width: 200px;
-        padding-bottom: 7px;
     }
 }
 
@@ -1573,70 +1255,6 @@ h6 {
     }
 }
 
-@media(max-width:382px) {
-    .education-work-section {
-        padding-left: 15px;
-        padding-right: 15px;
-        padding-top: 0;
-        padding-bottom: 60px;
-        gap: 15px;
-    }
-
-    .education-side h1 {
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    .education-side h5 {
-        font-size: 14px;
-    }
-
-    .education-side {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .education-side span {
-        font-size: 7px;
-    }
-
-    .work-section {
-        padding-top: 15px;
-        padding-bottom: 15px;
-    }
-
-    .work {
-        padding-left: 10px;
-    }
-
-    .work-side h1 {
-        font-size: 20px;
-        padding-bottom: 10px;
-    }
-
-    .work-side h5 {
-        font-size: 14px;
-    }
-
-    .work-side span {
-        font-size: 7px;
-    }
-
-    .education-side {
-        min-width: 250px;
-    }
-
-    .work-side {
-        min-width: 250px;
-    }
-
-    .work-section img {
-        width: 50px;
-        height: 30px;
-    }
-
-}
-
 /* education-work-section end */
 
 /* testimonials-section start */
@@ -1844,122 +1462,6 @@ h6 {
     }
 }
 
-@media(max-width:395px) {
-    .testimonials-section h2 {
-        font-size: 30px;
-    }
-
-    .testimonials-bottom-left img {
-        width: 280px;
-        height: 290px;
-    }
-
-    .testimonials-bottom-left {
-        padding-top: 25px;
-    }
-
-    .testimonials-section h1 {
-        font-size: 14px;
-        padding-bottom: 9px;
-        letter-spacing: 3px;
-    }
-
-    .testimonials-bottom-right>.right-top {
-        padding-top: 35px;
-    }
-
-    .testimonials-bottom-right>.right-top img {
-        width: 34px;
-        height: 34px;
-    }
-
-    .testimonials-bottom-right>.right-top p {
-        font-size: 19px;
-        line-height: 28px;
-        padding-top: 14px;
-        padding-bottom: 35px;
-    }
-
-    .testimonials-bottom-left {
-        min-width: 250px;
-    }
-
-    .testimonials-bottom-right {
-        min-width: 300px;
-    }
-
-    .testimonials-section h3 {
-        font-size: 15px;
-    }
-
-    .testimonials-section button {
-        width: 30px;
-        height: 30px;
-    }
-
-    .testimonials-section h4 {
-        font-size: 13px;
-    }
-}
-
-@media(max-width:314px) {
-    .testimonials-section h2 {
-        font-size: 25px;
-    }
-
-    .testimonials-bottom-left img {
-        width: 250px;
-        height: 270px;
-    }
-
-    .testimonials-bottom-left {
-        padding-top: 15px;
-    }
-
-    .testimonials-section h1 {
-        font-size: 12px;
-        padding-bottom: 6px;
-        letter-spacing: 2px;
-    }
-
-    .testimonials-bottom-right>.right-top {
-        padding-top: 25px;
-    }
-
-    .testimonials-bottom-right>.right-top img {
-        width: 30px;
-        height: 30px;
-    }
-
-    .testimonials-bottom-right>.right-top p {
-        font-size: 17px;
-        line-height: 24px;
-        padding-top: 10px;
-        padding-bottom: 30px;
-    }
-
-    .testimonials-bottom-left {
-        min-width: 250px;
-    }
-
-    .testimonials-bottom-right {
-        min-width: 270px;
-    }
-
-    .testimonials-section h3 {
-        font-size: 14px;
-    }
-
-    .testimonials-section button {
-        width: 27px;
-        height: 27px;
-    }
-
-    .testimonials-section h4 {
-        font-size: 12px;
-    }
-}
-
 /* testimonials-section end */
 
 /* faq-section-start */
@@ -2116,57 +1618,6 @@ h6 {
         width: 300px;
         line-height: 30px;
     }
-}
-
-@media(max-width:368px) {
-    .faq-section h1 {
-        font-size: 13px;
-        letter-spacing: 3px;
-    }
-
-    .faq-section h2 {
-        font-size: 25px;
-        padding-bottom: 30px;
-        padding-left: 10px;
-        padding-right: 10px;
-    }
-
-    .faq-section h3 {
-        font-size: 15px;
-        padding-top: 14px;
-        padding-bottom: 22px;
-    }
-
-    .faq-card {
-        width: 250px;
-        line-height: 20px;
-    }
-}
-
-@media(max-width:317px) {
-    .faq-section h1 {
-        font-size: 12px;
-        letter-spacing: 2px;
-    }
-
-    .faq-section h2 {
-        font-size: 20px;
-        padding-bottom: 20px;
-        padding-left: 8px;
-        padding-right: 8px;
-    }
-
-    .faq-section h3 {
-        font-size: 13px;
-        padding-top: 12px;
-        padding-bottom: 19px;
-    }
-
-    .faq-card {
-        width: 230px;
-        line-height: 16px;
-    }
-
 }
 
 /* faq-section-end */
@@ -2430,70 +1881,6 @@ h6 {
 
 }
 
-@media(max-width:366px) {
-    .final-section {
-        padding-top: 60px;
-        padding-bottom: 100px;
-        padding-right: 0;
-        padding-left: 20px;
-    }
-
-    .final-section-bottom>.left-side>.portfolio-creator img {
-        width: 140px;
-    }
-
-    .final-section-bottom>.left-side>.img img {
-        width: 19px;
-    }
-
-    .final-section h1 {
-        font-size: 25px;
-        line-height: 35px;
-        width: 250px;
-    }
-
-    .final-section h2 {
-        font-size: 25px;
-        width: 250px;
-    }
-
-    .final-section h4 {
-        font-size: 12px;
-        line-height: 13px;
-        padding-top: 13px;
-        padding-bottom: 7px;
-        width: 140px;
-    }
-
-    .final-section-bottom {
-        gap: 40px;
-    }
-
-    .final-section h5 {
-        font-size: 13px;
-    }
-
-    .final-section-top {
-        padding-bottom: 20px;
-    }
-
-    .final-section-bottom>.right-side a {
-        font-size: 13px;
-        padding-bottom: 20px;
-        text-decoration: none;
-    }
-
-
-    .about a {
-        padding-right: 40px;
-    }
-
-    .services a {
-        padding-right: 40px;
-    }
-
-}
-
 /* final-secrion-end */
 
 /* footer-start */
@@ -2553,35 +1940,6 @@ h6 {
 }
 
 }
-@media(max-width:450px){
-    .footer p{
-       font-size: 12px;
-       width: 300px;
-       height: 10px;
-    }
-    .footer a{
-        font-size: 12px;
-        padding-left: 3px;
-    }
-    }
-    @media(max-width:389px){
-        .footer p{
-           font-size: 10px;
-           width: 250px;
-        }
-        .footer a{
-            font-size: 10px;
-        }
-        }
-        @media(max-width:301px){
-            .footer p{
-               font-size: 9px;
-               height: 7px;
-            }
-            .footer a{
-                font-size: 9px;
-            }
-            }
 
 /* footer-end */
 
